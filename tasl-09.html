@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html | Division</title>
+
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .home{
+            width: 200px;
+            height: 500px;
+            background-color: rgb(37, 138, 225);
+        }
+
+        .about{
+            width: 200px;
+            height: 500px;
+            background-color: rgb(23, 248, 7);
+        }
+
+        .gallary{
+            width: 200px;
+            height: 500px;
+            background-color: rgb(232, 173, 10);
+        }
+
+        .contact{
+            width: 200px;
+            height: 500px;
+            background-color: rgb(191, 12, 236);
+            justify-content: center;
+        }
+        h3{
+            border-bottom: 2px solid greenyellow;
+        }
+
+        @media screen and (max-width:500px) {
+        .home{
+            width: 200px;
+            height: 300px;
+        }
+
+        .about{
+            width: 200px;
+            height: 300px;
+        }
+
+        .gallary{
+            width: 200px;
+            height: 300px;
+        }
+
+        .contact{
+            width: 200px;
+            height: 300px;
+        }
+        .main{
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="home">
+            <h3>HOME</h3>
+            <p>this is my home section</p>
+        </div>
+    
+        <div class="about">
+            <h3>ABOUT</h3>
+            <p>this is my about section</p>
+        </div>
+    
+        <div class="gallary">
+            <h3>GALLARY</h3>
+            <p>this is my gallary section</p>
+        </div>
+    
+        <div class="contact">
+            <h3>CONTACT</h3>
+            <p>this is my contact section</p>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <marquee behavior="" direction="left">
+                Made by: Ajay kumar Gupta
+            </marquee>
+        </address>
+    </footer>
+</body>
+</html>
